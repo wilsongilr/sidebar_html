@@ -4,7 +4,10 @@ const spans = document.querySelectorAll("span");
 const swonoff = document.querySelector(".switch");
 const circulo = document.querySelector(".circulo");
 const menu = document.querySelector(".menu");
-const main = document.querySelector("main");
+const main = document.querySelector(".main");
+
+
+
 
 
 menu.addEventListener("click",()=>{

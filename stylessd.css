@@ -151,8 +151,8 @@ body{
 
 .barra-lateral .navegacion{
     height: 100%;
-    overflow: auto;
-    overflow-y: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .barra-lateral .navegacion::-webkit-scrollbar{
@@ -326,7 +326,7 @@ body{
 }
 @media (max-width: 600px){
     .barra-lateral{
-        position: absolute;
+        position: fixed;
         left: -250px;
     }
     .max-barra-lateral{
@@ -338,10 +338,10 @@ body{
     .menu ion-icon:nth-child(2){
         display: none;
     }
-    main{
+    .main{
         margin-left: 0;
     }
-    main.min-main{
+    .main.min-main{
         margin-left: 0;
     }
     
